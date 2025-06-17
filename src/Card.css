@@ -1,0 +1,25 @@
+.Card-Layout--default {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 1fr 1fr 2fr 2fr 4fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Card-Avatar"
+    "Card-Name"
+    "Card-Location"
+    "Card-Title"
+    "Card-Social"
+    "Card-Skill";
+}
+
+.Card-Avatar { grid-area: Card-Avatar; }
+
+.Card-Name { grid-area: Card-Name; }
+
+.Card-Location { grid-area: Card-Location; }
+
+.Card-Title { grid-area: Card-Title; }
+
+.Card-Social { grid-area: Card-Social; }
+
+.Card-Skill { grid-area: Card-Skill; }

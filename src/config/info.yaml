@@ -1,7 +1,7 @@
 name: yourName
 title: Developer
 location: Beijin, China
-avater: ./avater.png
+avatar: src\assets\avatar.png
 links:
   github: https://github.com/username
   blog:   https://www.your-blog.com/

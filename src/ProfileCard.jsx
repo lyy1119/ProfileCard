@@ -1,4 +1,5 @@
 import { useSearchParams } from "react-router-dom";
+import Card from "./Card";
 
 export default function ProfileCard() {
   const [params] = useSearchParams();
@@ -7,7 +8,8 @@ export default function ProfileCard() {
 
   return(
     <div>
-      <p>parameters: size={size}, theme={theme}</p>
+        <Card layout={size} theme={theme}></Card>
+        <p>parameters: size={size}, theme={theme}</p>
     </div>
   );
 }
